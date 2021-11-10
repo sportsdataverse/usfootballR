@@ -3,7 +3,7 @@ pkgdown: 1.6.1
 pkgdown_sha: ~
 articles:
   getting-started-usfootballR: getting-started-usfootballR.html
-last_built: 2021-11-10T05:43Z
+last_built: 2021-11-10T05:48Z
 urls:
   reference: https://saiemgilani.github.io/usfootballR/reference
   article: https://saiemgilani.github.io/usfootballR/articles
