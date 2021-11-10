@@ -38,31 +38,31 @@ pre, code {
 }
 .label-default{
     border-color: #ecdddd;
-    background-color: #b298dc;
+    background-color: #09831A;
 }
 .navbar-default {
     border-color: #ecdddd;
-  
+
 }
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus{
-  
-    background-color: #3c096c;
+
+    background-color: #15360F;
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
-  
-    background-color: #3c096c;
+
+    background-color: #39651F;
 }
 .navbar-nav>.active>a, .navbar-nav>.active>a:hover, .navbar-nav>.active>a:focus {
-    background-color: #3c096c;
+    background-color: #39651F;
 }
 .navbar-nav>.open>a, .navbar-nav>.open>a:hover, .navbar-nav>.open>a:focus {
-    background-color: #3c096c;
+    background-color: #39651F;
 }
 
 .navbar {
     border-color: #ecdddd;
-    background-color: #221A4D;
-  
+    background-color: #15360F;
+
 }
 #tocnav ul ul {
     margin-left: 25px;
@@ -86,7 +86,7 @@ pre, code {
 }
 .dropdown-menu {
   box-shadow: 0 6px 12px rgba(5, 5, 5, 0.18);
-  background-color: #220829;
+  background-color: #044F1E;
 }
 #navbar ul ul{
   font-family: "Fira Mono";
@@ -111,17 +111,17 @@ pre, code {
 
 @-webkit-keyframes glow {
   from {
-    text-shadow: 0 0 8px #F7CAFA, 0 0 10px #F49AF9;
+    text-shadow: 0 0 8px #56FF81, 0 0 10px #B9FFCB;
   }
 
   to {
-    text-shadow: 0 0 10px #F7CAFA, 0 0 11px #F49AF9;
+    text-shadow: 0 0 10px #56FF81, 0 0 11px #B9FFCB;
   }
 }
 
 @keyframes glow {
     to {
-     text-shadow: 0 0 10px #F7CAFA, 0 0 11px #F49AF9;
+     text-shadow: 0 0 10px #56FF81, 0 0 11px #B9FFCB;
     }
   }
 
