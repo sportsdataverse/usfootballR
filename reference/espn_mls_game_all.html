@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Get ESPN's MLS game data (play-by-play, team and player box) — espn_mls_game_all • usfootballR</title>
+<title>Get ESPN's MLS game data (play-by-play, team) — espn_mls_game_all • usfootballR</title>
 
 <!-- favicons -->
 <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
@@ -48,8 +48,8 @@
   <link href="../extra.css" rel="stylesheet">
   
 
-<meta property="og:title" content="Get ESPN's MLS game data (play-by-play, team and player box) — espn_mls_game_all" />
-<meta property="og:description" content="Get ESPN's MLS game data (play-by-play, team and player box)" />
+<meta property="og:title" content="Get ESPN's MLS game data (play-by-play, team) — espn_mls_game_all" />
+<meta property="og:description" content="Get ESPN's MLS game data (play-by-play, team)" />
 <meta property="og:image" content="https://raw.githubusercontent.com/saiemgilani/usfootballR-data/master/themes/usfootballR_gh.png" />
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:creator" content="@saiemgilani" />
@@ -254,13 +254,13 @@
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>Get ESPN's MLS game data (play-by-play, team and player box)</h1>
+    <h1>Get ESPN's MLS game data (play-by-play, team)</h1>
     <small class="dont-index">Source: <a href='https://github.com/saiemgilani/usfootballR/blob/master/R/espn_mls_data.R'><code>R/espn_mls_data.R</code></a></small>
     <div class="hidden name"><code>espn_mls_game_all.Rd</code></div>
     </div>
 
     <div class="ref-description">
-    <p>Get ESPN's MLS game data (play-by-play, team and player box)</p>
+    <p>Get ESPN's MLS game data (play-by-play, team)</p>
     </div>
 
     <pre class="usage"><span class='fu'>espn_mls_game_all</span><span class='op'>(</span><span class='va'>game_id</span><span class='op'>)</span></pre>
@@ -276,17 +276,51 @@
 
     <h2 class="hasAnchor" id="value"><a class="anchor" href="#value"></a>Value</h2>
 
-    <p>A named list of dataframes: Plays, Team, Player</p>
+    <p>A named list of dataframes: Plays, Team</p>
     <h2 class="hasAnchor" id="author"><a class="anchor" href="#author"></a>Author</h2>
 
     <p>Saiem Gilani</p>
 
     <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
     <pre class="examples"><span class='r-in'><span class='co'># \donttest{</span></span>
-<span class='r-in'>  <span class='kw'><a href='https://rdrr.io/r/base/try.html'>try</a></span><span class='op'>(</span><span class='fu'>espn_mls_game_all</span><span class='op'>(</span>game_id <span class='op'>=</span> <span class='fl'>401244185</span><span class='op'>)</span><span class='op'>)</span></span>
-<span class='r-msg co'><span class='r-pr'>#&gt;</span> Request failed [404]. Retrying in 1 seconds...</span>
-<span class='r-msg co'><span class='r-pr'>#&gt;</span> Request failed [404]. Retrying in 3.3 seconds...</span>
-<span class='r-out co'><span class='r-pr'>#&gt;</span> Error : The API returned an error</span>
+<span class='r-in'>  <span class='kw'><a href='https://rdrr.io/r/base/try.html'>try</a></span><span class='op'>(</span><span class='fu'>espn_mls_game_all</span><span class='op'>(</span>game_id <span class='op'>=</span> <span class='fl'>598135</span><span class='op'>)</span><span class='op'>)</span></span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> $Plays</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #949494;'># A tibble: 113 × 18</span></span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span>    sequence text   time_display_va… time_value play_short_text play_id play_text</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span>       <span style='color: #949494; font-style: italic;'>&lt;int&gt;</span> <span style='color: #949494; font-style: italic;'>&lt;chr&gt;</span>  <span style='color: #949494; font-style: italic;'>&lt;chr&gt;</span>                 <span style='color: #949494; font-style: italic;'>&lt;int&gt;</span> <span style='color: #949494; font-style: italic;'>&lt;chr&gt;</span>           <span style='color: #949494; font-style: italic;'>&lt;chr&gt;</span>   <span style='color: #949494; font-style: italic;'>&lt;chr&gt;</span>    </span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #BCBCBC;'> 1</span>        0 Lineu… <span style='color: #949494;'>""</span>                        0 <span style='color: #BB0000;'>NA</span>              <span style='color: #BB0000;'>NA</span>      <span style='color: #BB0000;'>NA</span>       </span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #BCBCBC;'> 2</span>        1 First… <span style='color: #949494;'>""</span>                        0 <span style='color: #BB0000;'>NA</span>              <span style='color: #BB0000;'>NA</span>      <span style='color: #BB0000;'>NA</span>       </span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #BCBCBC;'> 3</span>        2 Attem… <span style='color: #949494;'>"</span>3'<span style='color: #949494;'>"</span>                    149 Luciano Acosta… 370490… Attempt …</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #BCBCBC;'> 4</span>        3 Corne… <span style='color: #949494;'>"</span>3'<span style='color: #949494;'>"</span>                    150 Luciano Acosta… 370489… Corner, …</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #BCBCBC;'> 5</span>        4 Attem… <span style='color: #949494;'>"</span>4'<span style='color: #949494;'>"</span>                    189 Tyler Blackett… 370490… Attempt …</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #BCBCBC;'> 6</span>        5 Corne… <span style='color: #949494;'>"</span>7'<span style='color: #949494;'>"</span>                    396 Brenner Corner… 370491… Corner, …</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #BCBCBC;'> 7</span>        6 Attem… <span style='color: #949494;'>"</span>8'<span style='color: #949494;'>"</span>                    442 Josef Martínez… 370491… Attempt …</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #BCBCBC;'> 8</span>        7 Brenn… <span style='color: #949494;'>"</span>8'<span style='color: #949494;'>"</span>                    472 Alan Franco Fo… 370491… Foul by …</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #BCBCBC;'> 9</span>        8 Foul … <span style='color: #949494;'>"</span>8'<span style='color: #949494;'>"</span>                    472 Alan Franco Fo… 370491… Foul by …</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #BCBCBC;'>10</span>        9 Attem… <span style='color: #949494;'>"</span>10'<span style='color: #949494;'>"</span>                   550 Zico Bailey Sh… 370492… Attempt …</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #949494;'># … with 103 more rows, and 11 more variables: play_period_number &lt;int&gt;,</span></span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #949494;'>#   play_clock_display_value &lt;chr&gt;, play_clock_value &lt;int&gt;,</span></span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #949494;'>#   play_team_display_name &lt;chr&gt;, play_source_description &lt;chr&gt;,</span></span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #949494;'>#   play_source_id &lt;chr&gt;, play_type_id &lt;chr&gt;, play_type_text &lt;chr&gt;, id &lt;chr&gt;,</span></span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #949494;'>#   athlete_1 &lt;chr&gt;, athlete_2 &lt;chr&gt;</span></span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> </span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> $Team</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span>                                                                                                                                                                                                                               statistics</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 1 12, 2, 0, 2, 9, 2, 61.4, 18, 4, foulsCommitted, yellowCards, redCards, offsides, wonCorners, saves, possessionPct, totalShots, shotsOnTarget, Fouls, Yellow Cards, Red Cards, Offsides, Corner Kicks, Saves, POSSESION, SHOTS, ON GOAL</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 2  13, 2, 0, 2, 5, 2, 38.6, 9, 3, foulsCommitted, yellowCards, redCards, offsides, wonCorners, saves, possessionPct, totalShots, shotsOnTarget, Fouls, Yellow Cards, Red Cards, Offsides, Corner Kicks, Saves, POSSESION, SHOTS, ON GOAL</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span>   team.shortDisplayName      team.uid team.alternateColor team.color</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 1               Atlanta s:600~t:18418              ffffff     C60000</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 2            Cincinnati s:600~t:18267              ffffff     003087</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span>    team.displayName         team.name</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 1 Atlanta United FC Atlanta United FC</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 2     FC Cincinnati     FC Cincinnati</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span>                                                team.logo     team.location</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 1 https://a.espncdn.com/i/teamlogos/soccer/500/18418.png Atlanta United FC</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 2 https://a.espncdn.com/i/teamlogos/soccer/500/18267.png     FC Cincinnati</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span>   team.id team.abbreviation             team.slug</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 1   18418               ATL usa.atlanta_united_fc</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 2   18267               CIN         fc_cincinnati</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> </span>
 <span class='r-in'><span class='co'># }</span></span>
 </pre>
   </div>

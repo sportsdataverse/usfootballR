@@ -284,10 +284,22 @@
     <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
     <pre class="examples"><span class='r-in'></span>
 <span class='r-in'><span class='co'># \donttest{</span></span>
-<span class='r-in'>  <span class='kw'><a href='https://rdrr.io/r/base/try.html'>try</a></span><span class='op'>(</span><span class='fu'>espn_mls_team_box</span><span class='op'>(</span>game_id <span class='op'>=</span> <span class='fl'>401244185</span><span class='op'>)</span><span class='op'>)</span></span>
-<span class='r-msg co'><span class='r-pr'>#&gt;</span> Request failed [404]. Retrying in 1.7 seconds...</span>
-<span class='r-msg co'><span class='r-pr'>#&gt;</span> Request failed [404]. Retrying in 1 seconds...</span>
-<span class='r-out co'><span class='r-pr'>#&gt;</span> Error : The API returned an error</span>
+<span class='r-in'>  <span class='kw'><a href='https://rdrr.io/r/base/try.html'>try</a></span><span class='op'>(</span><span class='fu'>espn_mls_team_box</span><span class='op'>(</span>game_id <span class='op'>=</span> <span class='fl'>598135</span><span class='op'>)</span><span class='op'>)</span></span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span>                                                                                                                                                                                                                               statistics</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 1 12, 2, 0, 2, 9, 2, 61.4, 18, 4, foulsCommitted, yellowCards, redCards, offsides, wonCorners, saves, possessionPct, totalShots, shotsOnTarget, Fouls, Yellow Cards, Red Cards, Offsides, Corner Kicks, Saves, POSSESION, SHOTS, ON GOAL</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 2  13, 2, 0, 2, 5, 2, 38.6, 9, 3, foulsCommitted, yellowCards, redCards, offsides, wonCorners, saves, possessionPct, totalShots, shotsOnTarget, Fouls, Yellow Cards, Red Cards, Offsides, Corner Kicks, Saves, POSSESION, SHOTS, ON GOAL</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span>   team.shortDisplayName      team.uid team.alternateColor team.color</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 1               Atlanta s:600~t:18418              ffffff     C60000</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 2            Cincinnati s:600~t:18267              ffffff     003087</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span>    team.displayName         team.name</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 1 Atlanta United FC Atlanta United FC</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 2     FC Cincinnati     FC Cincinnati</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span>                                                team.logo     team.location</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 1 https://a.espncdn.com/i/teamlogos/soccer/500/18418.png Atlanta United FC</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 2 https://a.espncdn.com/i/teamlogos/soccer/500/18267.png     FC Cincinnati</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span>   team.id team.abbreviation             team.slug</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 1   18418               ATL usa.atlanta_united_fc</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> 2   18267               CIN         fc_cincinnati</span>
 <span class='r-in'><span class='co'># }</span></span>
 </pre>
   </div>

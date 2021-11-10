@@ -285,9 +285,18 @@
     <pre class="examples"><span class='r-in'><span class='co'># Get schedule from date 2020-08-29</span></span>
 <span class='r-in'><span class='co'># \donttest{</span></span>
 <span class='r-in'>  <span class='kw'><a href='https://rdrr.io/r/base/try.html'>try</a></span><span class='op'>(</span><span class='fu'>espn_nwsl_scoreboard</span> <span class='op'>(</span>season <span class='op'>=</span> <span class='st'>"20200829"</span><span class='op'>)</span><span class='op'>)</span></span>
-<span class='r-msg co'><span class='r-pr'>#&gt;</span> Request failed [400]. Retrying in 1 seconds...</span>
-<span class='r-msg co'><span class='r-pr'>#&gt;</span> Request failed [400]. Retrying in 2.7 seconds...</span>
-<span class='r-out co'><span class='r-pr'>#&gt;</span> Error : The API returned an error</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #949494;'># A tibble: 2 × 32</span></span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span>   matchup matchup_short season  type slug  game_id game_uid game_date attendance</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span>   <span style='color: #949494; font-style: italic;'>&lt;chr&gt;</span>   <span style='color: #949494; font-style: italic;'>&lt;chr&gt;</span>          <span style='color: #949494; font-style: italic;'>&lt;int&gt;</span> <span style='color: #949494; font-style: italic;'>&lt;int&gt;</span> <span style='color: #949494; font-style: italic;'>&lt;chr&gt;</span> <span style='color: #949494; font-style: italic;'>&lt;chr&gt;</span>   <span style='color: #949494; font-style: italic;'>&lt;chr&gt;</span>    <span style='color: #949494; font-style: italic;'>&lt;chr&gt;</span>          <span style='color: #949494; font-style: italic;'>&lt;int&gt;</span></span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #BCBCBC;'>1</span> Portla… POR @ OLR       <span style='text-decoration: underline;'>2</span>020  <span style='text-decoration: underline;'>9</span>476 regu… 569481  s:600~l… 2020-08-…          0</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #BCBCBC;'>2</span> Chicag… CHI @ NCC       <span style='text-decoration: underline;'>2</span>020  <span style='text-decoration: underline;'>9</span>476 regu… 569480  s:600~l… 2020-08-…          0</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #949494;'># … with 23 more variables: gamecast_available &lt;lgl&gt;, home_team_name &lt;chr&gt;,</span></span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #949494;'>#   home_team_logo &lt;chr&gt;, home_team_abbreviation &lt;chr&gt;, home_team_id &lt;chr&gt;,</span></span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #949494;'>#   home_team_location &lt;chr&gt;, home_team_full_name &lt;chr&gt;, home_team_color &lt;chr&gt;,</span></span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #949494;'>#   home_score &lt;int&gt;, home_win &lt;int&gt;, home_record &lt;chr&gt;, away_team_name &lt;chr&gt;,</span></span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #949494;'>#   away_team_logo &lt;chr&gt;, away_team_abbreviation &lt;chr&gt;, away_team_id &lt;chr&gt;,</span></span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #949494;'>#   away_team_location &lt;chr&gt;, away_team_full_name &lt;chr&gt;, away_team_color &lt;chr&gt;,</span></span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #949494;'>#   away_score &lt;int&gt;, away_win &lt;int&gt;, away_record &lt;chr&gt;, status_name &lt;chr&gt;, …</span></span>
 <span class='r-in'><span class='co'># }</span></span>
 </pre>
   </div>
