@@ -48,7 +48,7 @@
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="../index.html">usfootballR</a>
-        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">1.2.1</span>
+        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.0.1</span>
       </span>
     </div>
 
@@ -272,7 +272,7 @@
   <span class="va">mls_pbp</span> <span class="op">&lt;-</span> <span class="fu">usfootballR</span><span class="fu">::</span><span class="fu"><a href="../reference/load_mls_pbp.html">load_mls_pbp</a></span><span class="op">(</span><span class="fl">2002</span><span class="op">:</span><span class="fl">2021</span><span class="op">)</span>
 <span class="op">}</span><span class="op">)</span>
 <span class="fu">tictoc</span><span class="fu">::</span><span class="fu"><a href="https://rdrr.io/pkg/tictoc/man/tic.html">toc</a></span><span class="op">(</span><span class="op">)</span></code></pre></div>
-<pre><code>## 3.744 sec elapsed</code></pre>
+<pre><code>## 4.661 sec elapsed</code></pre>
 <div class="sourceCode" id="cb4"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="fu">glue</span><span class="fu">::</span><span class="fu"><a href="https://glue.tidyverse.org/reference/glue.html">glue</a></span><span class="op">(</span><span class="st">"{nrow(mls_pbp)} rows of MLS play-by-play data from {length(unique(mls_pbp$game_id))} games."</span><span class="op">)</span></code></pre></div>
 <pre><code>## 0 rows of MLS play-by-play data from 0 games.</code></pre>
@@ -292,7 +292,7 @@
 <span class="op">}</span><span class="op">)</span>
 
 <span class="fu">tictoc</span><span class="fu">::</span><span class="fu"><a href="https://rdrr.io/pkg/tictoc/man/tic.html">toc</a></span><span class="op">(</span><span class="op">)</span></code></pre></div>
-<pre><code>## 3.125 sec elapsed</code></pre>
+<pre><code>## 4.818 sec elapsed</code></pre>
 <div class="sourceCode" id="cb10"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="fu">glue</span><span class="fu">::</span><span class="fu"><a href="https://glue.tidyverse.org/reference/glue.html">glue</a></span><span class="op">(</span><span class="st">"{nrow(mls_team_box)} rows of MLS team boxscore data from {length(unique(mls_team_box$game_id))} games."</span><span class="op">)</span></code></pre></div>
 <pre><code>## 0 rows of MLS team boxscore data from 0 games.</code></pre>
@@ -311,7 +311,7 @@
   <span class="va">mls_player_box</span> <span class="op">&lt;-</span> <span class="fu">usfootballR</span><span class="fu">::</span><span class="fu"><a href="../reference/load_mls_player_box.html">load_mls_player_box</a></span><span class="op">(</span><span class="fl">2002</span><span class="op">:</span><span class="fl">2021</span><span class="op">)</span>
 <span class="op">}</span><span class="op">)</span>
 <span class="fu">tictoc</span><span class="fu">::</span><span class="fu"><a href="https://rdrr.io/pkg/tictoc/man/tic.html">toc</a></span><span class="op">(</span><span class="op">)</span></code></pre></div>
-<pre><code>## 3.506 sec elapsed</code></pre>
+<pre><code>## 4.984 sec elapsed</code></pre>
 <div class="sourceCode" id="cb16"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="fu"><a href="https://rdrr.io/r/base/length.html">length</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/unique.html">unique</a></span><span class="op">(</span><span class="va">mls_player_box</span><span class="op">$</span><span class="va">game_id</span><span class="op">)</span><span class="op">)</span></code></pre></div>
 <pre><code>## [1] 0</code></pre>
@@ -329,7 +329,7 @@
   <span class="va">nwsl_pbp</span> <span class="op">&lt;-</span> <span class="fu">usfootballR</span><span class="fu">::</span><span class="fu"><a href="../reference/load_nwsl_pbp.html">load_nwsl_pbp</a></span><span class="op">(</span><span class="fl">2002</span><span class="op">:</span><span class="fl">2021</span><span class="op">)</span>
 <span class="op">}</span><span class="op">)</span>
 <span class="fu">tictoc</span><span class="fu">::</span><span class="fu"><a href="https://rdrr.io/pkg/tictoc/man/tic.html">toc</a></span><span class="op">(</span><span class="op">)</span></code></pre></div>
-<pre><code>## 3.061 sec elapsed</code></pre>
+<pre><code>## 4.765 sec elapsed</code></pre>
 <div class="sourceCode" id="cb22"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="fu">glue</span><span class="fu">::</span><span class="fu"><a href="https://glue.tidyverse.org/reference/glue.html">glue</a></span><span class="op">(</span><span class="st">"{nrow(nwsl_pbp)} rows of NWSL play-by-play data from {length(unique(nwsl_pbp$game_id))} games."</span><span class="op">)</span></code></pre></div>
 <pre><code>## 0 rows of NWSL play-by-play data from 0 games.</code></pre>
@@ -349,7 +349,7 @@
 <span class="op">}</span><span class="op">)</span>
 
 <span class="fu">tictoc</span><span class="fu">::</span><span class="fu"><a href="https://rdrr.io/pkg/tictoc/man/tic.html">toc</a></span><span class="op">(</span><span class="op">)</span></code></pre></div>
-<pre><code>## 3.011 sec elapsed</code></pre>
+<pre><code>## 4.446 sec elapsed</code></pre>
 <div class="sourceCode" id="cb28"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="fu">glue</span><span class="fu">::</span><span class="fu"><a href="https://glue.tidyverse.org/reference/glue.html">glue</a></span><span class="op">(</span><span class="st">"{nrow(nwsl_team_box)} rows of NWSL team boxscore data from {length(unique(nwsl_team_box$game_id))} games."</span><span class="op">)</span></code></pre></div>
 <pre><code>## 0 rows of NWSL team boxscore data from 0 games.</code></pre>
@@ -368,7 +368,7 @@
   <span class="va">nwsl_player_box</span> <span class="op">&lt;-</span> <span class="fu">usfootballR</span><span class="fu">::</span><span class="fu"><a href="../reference/load_nwsl_player_box.html">load_nwsl_player_box</a></span><span class="op">(</span><span class="fl">2002</span><span class="op">:</span><span class="fl">2021</span><span class="op">)</span>
 <span class="op">}</span><span class="op">)</span>
 <span class="fu">tictoc</span><span class="fu">::</span><span class="fu"><a href="https://rdrr.io/pkg/tictoc/man/tic.html">toc</a></span><span class="op">(</span><span class="op">)</span></code></pre></div>
-<pre><code>## 3.522 sec elapsed</code></pre>
+<pre><code>## 5.241 sec elapsed</code></pre>
 <div class="sourceCode" id="cb34"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="fu"><a href="https://rdrr.io/r/base/length.html">length</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/unique.html">unique</a></span><span class="op">(</span><span class="va">nwsl_player_box</span><span class="op">$</span><span class="va">game_id</span><span class="op">)</span><span class="op">)</span></code></pre></div>
 <pre><code>## [1] 0</code></pre>
