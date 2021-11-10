@@ -2,7 +2,7 @@
 % Please edit documentation in R/espn_mls_data.R
 \name{espn_mls_game_all}
 \alias{espn_mls_game_all}
-\title{Get ESPN's MLS game data (play-by-play, team and player box)}
+\title{Get ESPN's MLS game data (play-by-play, team)}
 \usage{
 espn_mls_game_all(game_id)
 }
@@ -10,14 +10,14 @@ espn_mls_game_all(game_id)
 \item{game_id}{Game ID}
 }
 \value{
-A named list of dataframes: Plays, Team, Player
+A named list of dataframes: Plays, Team
 }
 \description{
-Get ESPN's MLS game data (play-by-play, team and player box)
+Get ESPN's MLS game data (play-by-play, team)
 }
 \examples{
 \donttest{
-  try(espn_mls_game_all(game_id = 401244185))
+  try(espn_mls_game_all(game_id = 598135))
 }
 }
 \author{

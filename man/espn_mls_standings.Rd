@@ -20,8 +20,5 @@ Get ESPN MLS Standings
   try(espn_mls_standings(year = 2021))
 }
 }
-\author{
-Geoff Hutchinson
-}
 \keyword{MLS}
 \keyword{Standings}

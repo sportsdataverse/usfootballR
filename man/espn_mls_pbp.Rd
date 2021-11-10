@@ -18,7 +18,7 @@ Get ESPN's MLS play by play data
 \examples{
 
 \donttest{
-  try(espn_mls_pbp(game_id = 401244185))
+  try(espn_mls_pbp(game_id = 598135))
 }
 }
 \author{

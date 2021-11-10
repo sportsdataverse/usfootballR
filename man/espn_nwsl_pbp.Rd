@@ -18,7 +18,7 @@ Get ESPN's NWSL play by play data
 \examples{
 
 \donttest{
-  try(espn_nwsl_pbp(game_id = 401244185))
+  try(espn_nwsl_pbp(game_id = 601833))
 }
 }
 \author{

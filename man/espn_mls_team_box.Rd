@@ -18,7 +18,7 @@ Get ESPN's MLS team box data
 \examples{
 
 \donttest{
-  try(espn_mls_team_box(game_id = 401244185))
+  try(espn_mls_team_box(game_id = 598135))
 }
 }
 \author{

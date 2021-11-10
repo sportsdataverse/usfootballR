@@ -18,7 +18,7 @@ Get ESPN's NWSL team box data
 \examples{
 
 \donttest{
-  try(espn_nwsl_team_box(game_id = 401244185))
+  try(espn_nwsl_team_box(game_id = 601833))
 }
 }
 \author{
