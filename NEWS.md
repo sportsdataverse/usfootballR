@@ -1,0 +1,3 @@
+# usfootballR
+
+- create `NEWS.md`

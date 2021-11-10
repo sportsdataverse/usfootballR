@@ -1,0 +1,140 @@
+url: https://saiemgilani.github.io/usfootballR
+title: usfootballR
+template:
+  params:
+    bootswatch: flatly
+    ganalytics: G-9CQMXE1XGT
+  opengraph:
+    image:
+      src: "https://raw.githubusercontent.com/saiemgilani/usfootballR-data/master/themes/usfootballR_gh.png"
+    twitter:
+      creator: "@saiemgilani"
+      card: summary_large_image
+
+authors:
+  Saiem Gilani:
+    href: https://twitter.com/saiemgilani
+home:
+  title: Functions to Access MLS and NWSL Play by Play Data
+  description: Functions to Access MLS and NWSL Play by Play Data
+  icon: fa-home
+  href: index.html
+  links:
+  - text: Getting started with usfootballR
+    href: articles/getting-started-usfootballR.html
+navbar:
+  structure:
+    left:  [home, intro, reference, articles, news, games, network, data, repo]
+    right: [twitter, github]
+  icon: https://raw.githubusercontent.com/saiemgilani/usfootballR/master/man/figures/logo.ico
+  title: "usfootballR"
+  components:
+    twitter:
+      icon: "fab fa-twitter fa-lg"
+      href: http://twitter.com/saiemgilani
+    news:
+      icon: "fas fa-newspaper"
+      text: " News"
+      href: news/index.html
+    data:
+      icon: "fas fa-database"
+      text: " Data"
+      menu:
+      - text: "Data Repository"
+        href: https://github.com/saiemgilani/usfootballR-data
+    reference:
+      icon: "fas fa-code"
+      text: " Funcs"
+      href: reference/index.html
+      menu:
+      - text: "Function Index"
+        href: reference/index.html
+    articles:
+      icon: "fas fa-book-reader"
+      text: " Articles"
+      menu:
+      - text: Vignettes
+        href: articles/index.html
+      - text: Getting started
+        href: articles/getting-started-usfootballR.html
+    network:
+      icon: "fas fa-project-diagram"
+      text: " SDV"
+      menu:
+      - text: SportsDataverse
+        href: https://sportsdataverse.org/
+      - text: --------------------------------
+      - text: R Packages
+      - text: cfbfastR
+        href: https://saiemgilani.github.io/cfbfastR/
+      - text: hoopR
+        href: https://hoopR.sportsdataverse.org/
+      - text: recruitR
+        href: https://saiemgilani.github.io/recruitR/
+      - text: puntr
+        href: https://puntalytics.github.io/puntr/
+      - text: gamezoneR
+        href: https://jacklich10.github.io/gamezoneR/
+      - text: cfbplotR
+        href: https://kazink36.github.io/cfbplotR/
+      - text: cfb4th
+        href: https://kazink36.github.io/cfb4th/
+      - text: worldfootballR
+        href: https://jaseziv.github.io/worldfootballR/
+      - text: baseballr
+        href: https://BillPetti.github.io/baseballr/
+      - text: hockeyR
+        href: https://hockeyr.netlify.app/
+      - text: fastRhockey
+        href: https://BenHowell71.github.io/fastRhockey/
+      - text: powerplay
+        href: https://saiemgilani.github.io/powerplay/
+      - text: --------------------------------
+      - text: Python Packages
+      - text: sportsdataverse-py
+        href: https://py.sportsdataverse.org/
+      - text: --------------------------------
+      - text: Node.js Packages
+      - text: sportsdataverse.js
+        href: https://saiemgilani.github.io/sportsdataverse/
+      - text: nfl-nerd
+        href: https://github.com/nntrn/nfl-nerd/
+
+    github:
+      icon: "fab fa-github fa-lg"
+      href: https://github.com/saiemgilani/usfootballR/
+    repo:
+      url:
+      home: https://github.com/saiemgilani/usfootballR/
+      source: https://github.com/saiemgilani/usfootballR/blob/master/
+      issue: https://github.com/saiemgilani/usfootballR/issues/issues/
+      user: https://github.com/saiemgilani/
+
+reference:
+  - title: usfootballR Data
+  - subtitle: MLS Data Functions
+    desc: Functions exported by usfootballR to access the usfootballR-data repository's MLS Data
+    contents:
+      - '`load_mls_pbp`'
+      - '`load_mls_team_box`'
+      - '`load_mls_player_box`'
+      - '`load_mls_schedule`'
+      - '`update_mls_db`'
+  - subtitle: NWSL Data Functions
+    desc: Functions exported by usfootballR to access the usfootballR-data repository's NWSL Data
+    contents:
+      - '`load_nwsl_pbp`'
+      - '`load_nwsl_team_box`'
+      - '`load_nwsl_player_box`'
+      - '`load_nwsl_schedule`'
+      - '`update_nwsl_db`'
+
+  - title: ESPN Data
+  - subtitle: MLS Data Functions
+    desc: Functions exported by usfootballR to access ESPN's MLS Data
+    contents:
+      - starts_with("espn_mls_")
+  - subtitle: NWSL Data Functions
+    desc: Functions exported by usfootballR to access ESPN's NWSL Data
+    contents:
+      - starts_with("espn_nwsl_")
