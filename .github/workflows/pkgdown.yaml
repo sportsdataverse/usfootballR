@@ -20,24 +20,29 @@ jobs:
       - uses: r-lib/actions/setup-r@v1
         with:
           use-public-rspm: true
-
+          r-version: 4.1.3
       - uses: r-lib/actions/setup-r-dependencies@v1
         with:
           extra-packages: |
             pkgdown
-            pacman
             animation
+            baseballr
+            cfbfastR
+            chessR
+            fastRhockey
             ggimage
-            hadley/emo
+            gt
+            hoopR
             knitr
+            pacman
             ragg
-            r-lib/pkgapi
             rsconnect
+            sportyR
             tictoc
-            tidyverse
+            toRvik
+            wehoop
             zoo
           needs: website
-
       - name: Deploy package
         run: |
           git config --local user.name "$GITHUB_ACTOR"
