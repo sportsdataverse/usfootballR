@@ -6,6 +6,5 @@
 ..Rcheck/00check.log
 data-raw*
 inst/doc*
-kenpomR.Rcheck*
-wnba_pbp_db*
-wbb_pbp_db*
+^vignettes$
+vignettes/getting-started-usfootballR.Rmd
