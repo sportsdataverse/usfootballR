@@ -1,10 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://saiemgilani.github.io/usfootballR/404.html</loc>
+  </url>
+  <url>
+    <loc>https://saiemgilani.github.io/usfootballR/CODE_OF_CONDUCT.html</loc>
+  </url>
+  <url>
+    <loc>https://saiemgilani.github.io/usfootballR/LICENSE-text.html</loc>
+  </url>
+  <url>
+    <loc>https://saiemgilani.github.io/usfootballR/LICENSE.html</loc>
+  </url>
+  <url>
+    <loc>https://saiemgilani.github.io/usfootballR/authors.html</loc>
+  </url>
+  <url>
     <loc>https://saiemgilani.github.io/usfootballR/index.html</loc>
   </url>
   <url>
-    <loc>https://saiemgilani.github.io/usfootballR/reference/check_status.html</loc>
+    <loc>https://saiemgilani.github.io/usfootballR/news/index.html</loc>
   </url>
   <url>
     <loc>https://saiemgilani.github.io/usfootballR/reference/csv_from_url.html</loc>
@@ -46,6 +61,9 @@
     <loc>https://saiemgilani.github.io/usfootballR/reference/espn_nwsl_teams.html</loc>
   </url>
   <url>
+    <loc>https://saiemgilani.github.io/usfootballR/reference/index.html</loc>
+  </url>
+  <url>
     <loc>https://saiemgilani.github.io/usfootballR/reference/load_mls_pbp.html</loc>
   </url>
   <url>
@@ -83,8 +101,5 @@
   </url>
   <url>
     <loc>https://saiemgilani.github.io/usfootballR/reference/usfootballR-package.html</loc>
-  </url>
-  <url>
-    <loc>https://saiemgilani.github.io/usfootballR/articles/getting-started-usfootballR.html</loc>
   </url>
 </urlset>

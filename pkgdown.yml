@@ -1,9 +1,8 @@
 pandoc: 2.7.3
-pkgdown: 1.6.1
+pkgdown: 2.0.3
 pkgdown_sha: ~
-articles:
-  getting-started-usfootballR: getting-started-usfootballR.html
-last_built: 2021-11-10T10:24Z
+articles: {}
+last_built: 2022-05-04T01:26Z
 urls:
   reference: https://saiemgilani.github.io/usfootballR/reference
   article: https://saiemgilani.github.io/usfootballR/articles
