@@ -8,6 +8,7 @@ template:
     image:
       src: "https://raw.githubusercontent.com/saiemgilani/usfootballR-data/master/themes/usfootballR_gh.png"
     twitter:
+      site: "@sportsdataverse"
       creator: "@saiemgilani"
       card: summary_large_image
 
@@ -19,19 +20,19 @@ home:
   description: Functions to Access MLS and NWSL Play by Play Data
   icon: fa-home
   href: index.html
-  links:
-  - text: Getting started with usfootballR
-    href: articles/getting-started-usfootballR.html
 navbar:
   structure:
-    left:  [home, intro, reference, articles, news, games, network, data, repo]
+    left:  [home, reference, news, network, data, repo]
     right: [twitter, github]
-  icon: https://raw.githubusercontent.com/saiemgilani/usfootballR/master/man/figures/logo.ico
   title: "usfootballR"
   components:
-    twitter:
-      icon: "fab fa-twitter fa-lg"
-      href: http://twitter.com/saiemgilani
+    reference:
+      icon: "fas fa-code"
+      text: " Funcs"
+      href: reference/index.html
+      menu:
+      - text: "Function Index"
+        href: reference/index.html
     news:
       icon: "fas fa-newspaper"
       text: " News"
@@ -42,21 +43,12 @@ navbar:
       menu:
       - text: "Data Repository"
         href: https://github.com/saiemgilani/usfootballR-data
-    reference:
-      icon: "fas fa-code"
-      text: " Funcs"
-      href: reference/index.html
-      menu:
-      - text: "Function Index"
-        href: reference/index.html
-    articles:
-      icon: "fas fa-book-reader"
-      text: " Articles"
-      menu:
-      - text: Vignettes
-        href: articles/index.html
-      - text: Getting started
-        href: articles/getting-started-usfootballR.html
+    # articles:
+    #   icon: "fas fa-book-reader"
+    #   text: " Articles"
+    #   menu:
+    #   - text: Vignettes
+    #     href: articles/index.html
     network:
       icon: "fas fa-project-diagram"
       text: " SDV"
@@ -103,6 +95,9 @@ navbar:
     github:
       icon: "fab fa-github fa-lg"
       href: https://github.com/saiemgilani/usfootballR/
+    twitter:
+      icon: "fab fa-twitter fa-lg"
+      href: https://twitter.com/saiemgilani
     repo:
       url:
       home: https://github.com/saiemgilani/usfootballR/
@@ -138,3 +133,10 @@ reference:
     desc: Functions exported by usfootballR to access ESPN's NWSL Data
     contents:
       - starts_with("espn_nwsl_")
+  - title: "Helpers"
+  - subtitle: Helper Functions
+    desc: Functions used internally by usfootballR which assist in transforming or loading data
+    contents:
+      - '`csv_from_url`'
+      - '`rds_from_url`'
+      - '`progressively`'

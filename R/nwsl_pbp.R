@@ -16,7 +16,7 @@ NULL
 #' @export
 #' @examples
 #' \donttest{
-#' load_nwsl_pbp(2021)
+#'   try(load_nwsl_pbp(2021))
 #' }
 load_nwsl_pbp <- function(seasons = most_recent_nwsl_season(),...,
                          dbConnection = NULL, tablename = NULL) {
@@ -68,7 +68,7 @@ NULL
 #' @export
 #' @examples
 #' \donttest{
-#' load_nwsl_team_box(2021)
+#'   try(load_nwsl_team_box(2021))
 #' }
 load_nwsl_team_box <- function(seasons = most_recent_nwsl_season(), ...,
                               dbConnection = NULL, tablename = NULL) {
@@ -117,7 +117,7 @@ NULL
 #' @export
 #' @examples
 #' \donttest{
-#' load_nwsl_player_box(2021)
+#'   try(load_nwsl_player_box(2021))
 #' }
 load_nwsl_player_box <- function(seasons = most_recent_nwsl_season(), ...,
                                 dbConnection = NULL, tablename = NULL) {
@@ -167,7 +167,7 @@ NULL
 #' @export
 #' @examples
 #' \donttest{
-#' load_nwsl_schedule(2021)
+#'   try(load_nwsl_schedule(2021))
 #' }
 load_nwsl_schedule <- function(seasons = most_recent_nwsl_season(), ...,
                               dbConnection = NULL, tablename = NULL) {

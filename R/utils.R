@@ -111,11 +111,7 @@ most_recent_mls_season <- function() {
 
 my_time <- function() strftime(Sys.time(), format = "%H:%M:%S")
 
-#' Check Status function
-#' @param res Response from API
-#' @keywords Internal
 #' @import rvest
-#'
 check_status <- function(res) {
 
   x = httr::status_code(res)
