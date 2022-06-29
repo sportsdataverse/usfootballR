@@ -4,18 +4,18 @@
 \name{usfootballR-package}
 \alias{usfootballR}
 \alias{usfootballR-package}
-\title{usfootballR: Functions to Access MLS and NWSL Play by Play Data}
+\title{usfootballR: Access MLS and NWSL Play-by-Play Data}
 \description{
 \if{html}{\figure{logo.png}{options: align='right' alt='logo' width='120'}}
 
-A utility for working with American soccer data. A scraping and aggregating interface for ESPN's<https://www.espn.com> MLS and NWSL statistics. It provides users with the capability to access the ESPN API's game play-by-plays, box scores, standings and results to analyze the data for themselves.
+A utility for working with American soccer data. A scraping and aggregating interface for ESPN's <https://www.espn.com> MLS and NWSL statistics.
 }
 \seealso{
 Useful links:
 \itemize{
-  \item \url{https://saiemgilani.github.io/usfootballR/}
-  \item \url{https://github.com/saiemgilani/usfootballR}
-  \item Report bugs at \url{https://github.com/saiemgilani/usfootballR/issues}
+  \item \url{https://usfootballR.sportsdataverse.org/}
+  \item \url{https://github.com/sportsdataverse/usfootballR}
+  \item Report bugs at \url{https://github.com/sportsdataverse/usfootballR/issues}
 }
 
 }

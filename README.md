@@ -1,17 +1,15 @@
 
-# usfootballR <a href='https://saiemgilani.github.io/usfootballR/'><img src="man/figures/logo.png" align="right" height="139"/></a>
+# usfootballR <a href='https://usfootballR.sportsdataverse.org/'><img src="https://raw.githubusercontent.com/sportsdataverse/usfootballR/master/man/figures/logo.png" align="right" width="20%" min-width="100px"/></a>
 
 <!-- badges: start -->
 
-[![Version-Number](https://img.shields.io/github/r-package/v/saiemgilani/usfootballR?label=usfootballR&logo=R&style=for-the-badge)](https://github.com/saiemgilani/usfootballR)
-[![R-CMD-check](https://img.shields.io/github/workflow/status/saiemgilani/usfootballR/R-CMD-check?label=R-CMD-Check&logo=R&logoColor=blue&style=for-the-badge)](https://github.com/saiemgilani/usfootballR/actions/workflows/R-CMD-check.yaml)
-[![Lifecycle:maturing](https://img.shields.io/badge/lifecycle-maturing-blue.svg?style=for-the-badge&logo=github)](https://github.com/saiemgilani/usfootballR)
+[![Version-Number](https://img.shields.io/github/r-package/v/sportsdataverse/usfootballR?label=usfootballR&logo=R&style=for-the-badge)](https://github.com/sportsdataverse/usfootballR)
+[![R-CMD-check](https://img.shields.io/github/workflow/status/sportsdataverse/usfootballR/R-CMD-check?label=R-CMD-Check&logo=R&logoColor=blue&style=for-the-badge)](https://github.com/sportsdataverse/usfootballR/actions/workflows/R-CMD-check.yaml)
+[![Lifecycle:maturing](https://img.shields.io/badge/lifecycle-maturing-blue.svg?style=for-the-badge&logo=github)](https://github.com/sportsdataverse/usfootballR)
 [![Twitter
 Follow](https://img.shields.io/twitter/follow/saiemgilani?color=blue&label=%40saiemgilani&logo=twitter&style=for-the-badge)](https://twitter.com/saiemgilani)
 [![Twitter
-Follow](https://img.shields.io/twitter/follow/hutchngo?color=blue&label=%40hutchngo&logo=twitter&style=for-the-badge)](https://twitter.com/hutchngo)
-[![Twitter
-Follow](https://img.shields.io/twitter/follow/SportsDataverse?color=blue&label=%40SportsDataverse&logo=twitter&style=for-the-badge)](https://twitter.com/SportsDataverse)
+Follow](https://img.shields.io/twitter/follow/sportsdataverse?color=blue&label=%40sportsdataverse&logo=twitter&style=for-the-badge)](https://twitter.com/sportsdataverse)
 
 <!-- badges: end -->
 
@@ -27,15 +25,15 @@ themselves.
 ## Installation
 
 You can install the released version of
-[**`usfootballR`**](https://github.com/saiemgilani/usfootballR) from
-[GitHub](https://github.com/saiemgilani/usfootballR) with:
+[**`usfootballR`**](https://github.com/sportsdataverse/usfootballR) from
+[GitHub](https://github.com/sportsdataverse/usfootballR) with:
 
 ``` r
 # You can install using the pacman package using the following code:
 if (!requireNamespace('pacman', quietly = TRUE)){
   install.packages('pacman')
 }
-pacman::p_load_current_gh("saiemgilani/usfootballR", dependencies = TRUE, update = TRUE)
+pacman::p_load_current_gh("sportsdataverse/usfootballR", dependencies = TRUE, update = TRUE)
 ```
 
 ## Documentation
@@ -55,7 +53,7 @@ Releases**](https://usfootballR.sportsdataverse.org/CHANGELOG)
 Follow](https://img.shields.io/twitter/follow/SportsDataverse?color=blue&label=%40SportsDataverse&logo=twitter&style=for-the-badge)](https://twitter.com/SportsDataverse)
 
 [![GitHub
-stars](https://img.shields.io/github/stars/saiemgilani/usfootballR.svg?color=eee&logo=github&style=for-the-badge&label=Star%20usfootballR&maxAge=2592000)](https://github.com/saiemgilani/usfootballR/stargazers/)
+stars](https://img.shields.io/github/stars/sportsdataverse/usfootballR.svg?color=eee&logo=github&style=for-the-badge&label=Star%20usfootballR&maxAge=2592000)](https://github.com/sportsdataverse/usfootballR/stargazers/)
 
 # **Our Authors**
 

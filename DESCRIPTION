@@ -1,12 +1,12 @@
 Package: usfootballR
-Title: Functions to Access MLS and NWSL Play by Play Data
+Title: Access MLS and NWSL Play-by-Play Data
 Version: 0.0.1
 Authors@R: c(person('Saiem', 'Gilani', email = 'saiem.gilani@gmail.com',role = c('aut','cre')))
-Description: A utility for working with American soccer data. A scraping and aggregating interface for ESPN's<https://www.espn.com> MLS and NWSL statistics. It provides users with the capability to access the ESPN API's game play-by-plays, box scores, standings and results to analyze the data for themselves.
+Description: A utility for working with American soccer data. A scraping and aggregating interface for ESPN's <https://www.espn.com> MLS and NWSL statistics.
 License: MIT + file LICENSE
 LazyData: true
-URL: https://saiemgilani.github.io/usfootballR/, https://github.com/saiemgilani/usfootballR
-BugReports: https://github.com/saiemgilani/usfootballR/issues
+URL: https://usfootballR.sportsdataverse.org/, https://github.com/sportsdataverse/usfootballR
+BugReports: https://github.com/sportsdataverse/usfootballR/issues
 Encoding: UTF-8
 Depends: R (>= 4.0.0)
 Imports: 

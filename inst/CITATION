@@ -7,11 +7,11 @@ citEntry(entry = "Misc",
          author = personList(
          as.person("Saiem Gilani")),
          title = "usfootballR: The SportsDataverse's R Package for MLS and NWSL Data.",
-         url = c("saiemgilani.github.io/usfootballR/"),
+         url = c("usfootballR.sportsdataverse.org/"),
          year = year,
          note = note,
          textVersion = paste(
     "Saiem Gilani. usfootballR: The SportsDataverse's R Package for MLS and NWSL Data.",
-    "Retrieved from https://saiemgilani.github.io/usfootballR/"
+    "Retrieved from https://usfootballR.sportsdataverse.org/"
   )
 )
