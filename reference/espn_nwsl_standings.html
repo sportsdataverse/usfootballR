@@ -153,7 +153,7 @@
   <div class="col-md-9 contents">
     <div class="page-header">
     <h1>Get ESPN NWSL Standings</h1>
-    <small class="dont-index">Source: <a href="https://github.com/saiemgilani/usfootballR/blob/HEAD/R/espn_nwsl_data.R" class="external-link"><code>R/espn_nwsl_data.R</code></a></small>
+    <small class="dont-index">Source: <a href="https://github.com/sportsdataverse/usfootballR/blob/HEAD/R/espn_nwsl_data.R" class="external-link"><code>R/espn_nwsl_data.R</code></a></small>
     <div class="hidden name"><code>espn_nwsl_standings.Rd</code></div>
     </div>
 
@@ -162,17 +162,20 @@
     </div>
 
     <div id="ref-usage">
-    <div class="sourceCode"><pre class="sourceCode r"><code><span class="fu">espn_nwsl_standings</span><span class="op">(</span><span class="va">year</span><span class="op">)</span></code></pre></div>
+    <div class="sourceCode"><pre class="sourceCode r"><code><span><span class="fu">espn_nwsl_standings</span><span class="op">(</span><span class="va">year</span><span class="op">)</span></span></code></pre></div>
     </div>
 
     <div id="arguments">
     <h2>Arguments</h2>
     <dl><dt>year</dt>
 <dd><p>Either numeric or character (YYYY)</p></dd>
+
 </dl></div>
     <div id="value">
     <h2>Value</h2>
-    <p>Returns a tibble</p>
+    
+
+<p>Returns a tibble</p>
     </div>
     <div id="author">
     <h2>Author</h2>
@@ -181,8 +184,8 @@
 
     <div id="ref-examples">
     <h2>Examples</h2>
-    <div class="sourceCode"><pre class="sourceCode r"><code><span class="r-in"><span class="co"># \donttest{</span></span>
-<span class="r-in">  <span class="kw"><a href="https://rdrr.io/r/base/try.html" class="external-link">try</a></span><span class="op">(</span><span class="fu">espn_nwsl_standings</span><span class="op">(</span>year <span class="op">=</span> <span class="fl">2021</span><span class="op">)</span><span class="op">)</span></span>
+    <div class="sourceCode"><pre class="sourceCode r"><code><span class="r-in"><span><span class="co"># \donttest{</span></span></span>
+<span class="r-in"><span>  <span class="kw"><a href="https://rdrr.io/r/base/try.html" class="external-link">try</a></span><span class="op">(</span><span class="fu">espn_nwsl_standings</span><span class="op">(</span>year <span class="op">=</span> <span class="fl">2021</span><span class="op">)</span><span class="op">)</span></span></span>
 <span class="r-out co"><span class="r-pr">#&gt;</span>    team_id                   team wins losses ties gamesplayed pointsfor</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> 1    15362     Portland Thorns FC   13      6    5          24        33</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> 2    15363               OL Reign   13      8    3          24        37</span>
@@ -190,7 +193,7 @@
 <span class="r-out co"><span class="r-pr">#&gt;</span> 4    15360      Chicago Red Stars   11      8    5          24        28</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> 5    15364        NJ/NY Gotham FC    8      5   11          24        29</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> 6    15366 North Carolina Courage    9      9    6          24        28</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 7    17346           Houston Dash    9     10    5          24        31</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 7    17346                Houston    9     10    5          24        31</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> 8    18206          Orlando Pride    7     10    7          24        27</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> 9    20905   Racing Louisville FC    5     12    7          24        21</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> 10   20907    Kansas City Current    3     14    7          24        15</span>
@@ -205,7 +208,7 @@
 <span class="r-out co"><span class="r-pr">#&gt;</span> 8             32     28          0    8                -5          0   0 7-7-10</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> 9             40     22          0    9               -19          0   0 5-7-12</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> 10            36     16          0   10               -21          0   0 3-7-14</span>
-<span class="r-in"><span class="co"># }</span></span>
+<span class="r-in"><span><span class="co"># }</span></span></span>
 </code></pre></div>
     </div>
   </div>
@@ -220,7 +223,7 @@
 </div>
 
 <div class="pkgdown">
-  <p></p><p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.0.3.</p>
+  <p></p><p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.0.5.</p>
 </div>
 
       </footer></div>

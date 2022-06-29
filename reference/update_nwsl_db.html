@@ -154,7 +154,7 @@ play by play data of all completed and available games since 2002."><meta proper
   <div class="col-md-9 contents">
     <div class="page-header">
     <h1><strong>Update or create a usfootballR play-by-play database</strong></h1>
-    <small class="dont-index">Source: <a href="https://github.com/saiemgilani/usfootballR/blob/HEAD/R/nwsl_pbp.R" class="external-link"><code>R/nwsl_pbp.R</code></a></small>
+    <small class="dont-index">Source: <a href="https://github.com/sportsdataverse/usfootballR/blob/HEAD/R/nwsl_pbp.R" class="external-link"><code>R/nwsl_pbp.R</code></a></small>
     <div class="hidden name"><code>update_nwsl_db.Rd</code></div>
     </div>
 
@@ -164,33 +164,44 @@ play by play data of all completed and available games since 2002.</p>
     </div>
 
     <div id="ref-usage">
-    <div class="sourceCode"><pre class="sourceCode r"><code><span class="fu">update_nwsl_db</span><span class="op">(</span>
-  dbdir <span class="op">=</span> <span class="st">"."</span>,
-  dbname <span class="op">=</span> <span class="st">"usfootballR_db"</span>,
-  tblname <span class="op">=</span> <span class="st">"usfootballR_nwsl_pbp"</span>,
-  force_rebuild <span class="op">=</span> <span class="cn">FALSE</span>,
-  db_connection <span class="op">=</span> <span class="cn">NULL</span>
-<span class="op">)</span></code></pre></div>
+    <div class="sourceCode"><pre class="sourceCode r"><code><span><span class="fu">update_nwsl_db</span><span class="op">(</span></span>
+<span>  dbdir <span class="op">=</span> <span class="st">"."</span>,</span>
+<span>  dbname <span class="op">=</span> <span class="st">"usfootballR_db"</span>,</span>
+<span>  tblname <span class="op">=</span> <span class="st">"usfootballR_nwsl_pbp"</span>,</span>
+<span>  force_rebuild <span class="op">=</span> <span class="cn">FALSE</span>,</span>
+<span>  db_connection <span class="op">=</span> <span class="cn">NULL</span></span>
+<span><span class="op">)</span></span></code></pre></div>
     </div>
 
     <div id="arguments">
     <h2>Arguments</h2>
     <dl><dt>dbdir</dt>
 <dd><p>Directory in which the database is or shall be located</p></dd>
+
+
 <dt>dbname</dt>
 <dd><p>File name of an existing or desired SQLite database within <code>dbdir</code></p></dd>
+
+
 <dt>tblname</dt>
 <dd><p>The name of the play by play data table within the database</p></dd>
+
+
 <dt>force_rebuild</dt>
 <dd><p>Hybrid parameter (logical or numeric) to rebuild parts
 of or the complete play by play data table within the database (please see details for further information)</p></dd>
+
+
 <dt>db_connection</dt>
 <dd><p>A <code>DBIConnection</code> object, as returned by
 <code><a href="https://dbi.r-dbi.org/reference/dbConnect.html" class="external-link">DBI::dbConnect()</a></code> (please see details for further information)</p></dd>
+
 </dl></div>
     <div id="value">
     <h2>Value</h2>
-    <p>Logical TRUE/FALSE</p>
+    
+
+<p>Logical TRUE/FALSE</p>
     </div>
     <div id="details">
     <h2>Details</h2>
@@ -229,7 +240,7 @@ data table into the database.</p>
 </div>
 
 <div class="pkgdown">
-  <p></p><p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.0.3.</p>
+  <p></p><p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.0.5.</p>
 </div>
 
       </footer></div>

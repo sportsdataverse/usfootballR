@@ -154,7 +154,7 @@ or writes it into a db using some forwarded arguments in the dots"><meta propert
   <div class="col-md-9 contents">
     <div class="page-header">
     <h1><strong>Load usfootballR MLS player box scores</strong></h1>
-    <small class="dont-index">Source: <a href="https://github.com/saiemgilani/usfootballR/blob/HEAD/R/mls_pbp.R" class="external-link"><code>R/mls_pbp.R</code></a></small>
+    <small class="dont-index">Source: <a href="https://github.com/sportsdataverse/usfootballR/blob/HEAD/R/mls_pbp.R" class="external-link"><code>R/mls_pbp.R</code></a></small>
     <div class="hidden name"><code>load_mls_player_box.Rd</code></div>
     </div>
 
@@ -164,39 +164,48 @@ or writes it into a db using some forwarded arguments in the dots</p>
     </div>
 
     <div id="ref-usage">
-    <div class="sourceCode"><pre class="sourceCode r"><code><span class="fu">load_mls_player_box</span><span class="op">(</span>
-  seasons <span class="op">=</span> <span class="fu">most_recent_mls_season</span><span class="op">(</span><span class="op">)</span>,
-  <span class="va">...</span>,
-  dbConnection <span class="op">=</span> <span class="cn">NULL</span>,
-  tablename <span class="op">=</span> <span class="cn">NULL</span>
-<span class="op">)</span></code></pre></div>
+    <div class="sourceCode"><pre class="sourceCode r"><code><span><span class="fu">load_mls_player_box</span><span class="op">(</span></span>
+<span>  seasons <span class="op">=</span> <span class="fu">most_recent_mls_season</span><span class="op">(</span><span class="op">)</span>,</span>
+<span>  <span class="va">...</span>,</span>
+<span>  dbConnection <span class="op">=</span> <span class="cn">NULL</span>,</span>
+<span>  tablename <span class="op">=</span> <span class="cn">NULL</span></span>
+<span><span class="op">)</span></span></code></pre></div>
     </div>
 
     <div id="arguments">
     <h2>Arguments</h2>
     <dl><dt>seasons</dt>
 <dd><p>A vector of 4-digit years associated with given MLS seasons. (Min: 2002)</p></dd>
+
+
 <dt>...</dt>
 <dd><p>Additional arguments passed to an underlying function that writes
 the season data into a database (used by <code><a href="update_mls_db.html">update_mls_db()</a></code>).</p></dd>
+
+
 <dt>dbConnection</dt>
 <dd><p>A <code>DBIConnection</code> object, as returned by <code><a href="https://dbi.r-dbi.org/reference/dbConnect.html" class="external-link">DBI::dbConnect()</a></code></p></dd>
+
+
 <dt>tablename</dt>
 <dd><p>The name of the player box data table within the database</p></dd>
+
 </dl></div>
     <div id="value">
     <h2>Value</h2>
-    <p>Returns a tibble</p>
+    
+
+<p>Returns a tibble</p>
     </div>
 
     <div id="ref-examples">
     <h2>Examples</h2>
-    <div class="sourceCode"><pre class="sourceCode r"><code><span class="r-in"><span class="co"># \donttest{</span></span>
-<span class="r-in">  <span class="kw"><a href="https://rdrr.io/r/base/try.html" class="external-link">try</a></span><span class="op">(</span><span class="fu">load_mls_player_box</span><span class="op">(</span><span class="fl">2021</span><span class="op">)</span><span class="op">)</span></span>
+    <div class="sourceCode"><pre class="sourceCode r"><code><span class="r-in"><span><span class="co"># \donttest{</span></span></span>
+<span class="r-in"><span>  <span class="kw"><a href="https://rdrr.io/r/base/try.html" class="external-link">try</a></span><span class="op">(</span><span class="fu">load_mls_player_box</span><span class="op">(</span><span class="fl">2021</span><span class="op">)</span><span class="op">)</span></span></span>
 <span class="r-wrn co"><span class="r-pr">#&gt;</span> <span class="warning">Warning: </span>cannot open URL 'https://raw.githubusercontent.com/saiemgilani/usfootballR-data/master/mls/player_box/rds/player_box_2021.rds': HTTP status was '404 Not Found'</span>
 <span class="r-wrn co"><span class="r-pr">#&gt;</span> <span class="warning">Warning: </span>Failed to readRDS from &lt;https://raw.githubusercontent.com/saiemgilani/usfootballR-data/master/mls/player_box/rds/player_box_2021.rds&gt;</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #949494;"># A tibble: 0 × 0</span></span>
-<span class="r-in"><span class="co"># }</span></span>
+<span class="r-in"><span><span class="co"># }</span></span></span>
 </code></pre></div>
     </div>
   </div>
@@ -211,7 +220,7 @@ the season data into a database (used by <code><a href="update_mls_db.html">upda
 </div>
 
 <div class="pkgdown">
-  <p></p><p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.0.3.</p>
+  <p></p><p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.0.5.</p>
 </div>
 
       </footer></div>

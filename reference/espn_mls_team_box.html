@@ -153,7 +153,7 @@
   <div class="col-md-9 contents">
     <div class="page-header">
     <h1>Get ESPN's MLS team box data</h1>
-    <small class="dont-index">Source: <a href="https://github.com/saiemgilani/usfootballR/blob/HEAD/R/espn_mls_data.R" class="external-link"><code>R/espn_mls_data.R</code></a></small>
+    <small class="dont-index">Source: <a href="https://github.com/sportsdataverse/usfootballR/blob/HEAD/R/espn_mls_data.R" class="external-link"><code>R/espn_mls_data.R</code></a></small>
     <div class="hidden name"><code>espn_mls_team_box.Rd</code></div>
     </div>
 
@@ -162,17 +162,20 @@
     </div>
 
     <div id="ref-usage">
-    <div class="sourceCode"><pre class="sourceCode r"><code><span class="fu">espn_mls_team_box</span><span class="op">(</span><span class="va">game_id</span><span class="op">)</span></code></pre></div>
+    <div class="sourceCode"><pre class="sourceCode r"><code><span><span class="fu">espn_mls_team_box</span><span class="op">(</span><span class="va">game_id</span><span class="op">)</span></span></code></pre></div>
     </div>
 
     <div id="arguments">
     <h2>Arguments</h2>
     <dl><dt>game_id</dt>
 <dd><p>Game ID</p></dd>
+
 </dl></div>
     <div id="value">
     <h2>Value</h2>
-    <p>Returns a team boxscore data frame</p>
+    
+
+<p>Returns a team boxscore data frame</p>
     </div>
     <div id="author">
     <h2>Author</h2>
@@ -181,12 +184,12 @@
 
     <div id="ref-examples">
     <h2>Examples</h2>
-    <div class="sourceCode"><pre class="sourceCode r"><code><span class="r-in"></span>
-<span class="r-in"><span class="co"># \donttest{</span></span>
-<span class="r-in">  <span class="kw"><a href="https://rdrr.io/r/base/try.html" class="external-link">try</a></span><span class="op">(</span><span class="fu">espn_mls_team_box</span><span class="op">(</span>game_id <span class="op">=</span> <span class="fl">598135</span><span class="op">)</span><span class="op">)</span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>                                                                                                                                                                                                                               statistics</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 1 12, 2, 0, 2, 9, 2, 61.4, 18, 4, foulsCommitted, yellowCards, redCards, offsides, wonCorners, saves, possessionPct, totalShots, shotsOnTarget, Fouls, Yellow Cards, Red Cards, Offsides, Corner Kicks, Saves, POSSESION, SHOTS, ON GOAL</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> 2  13, 2, 0, 2, 5, 2, 38.6, 9, 3, foulsCommitted, yellowCards, redCards, offsides, wonCorners, saves, possessionPct, totalShots, shotsOnTarget, Fouls, Yellow Cards, Red Cards, Offsides, Corner Kicks, Saves, POSSESION, SHOTS, ON GOAL</span>
+    <div class="sourceCode"><pre class="sourceCode r"><code><span class="r-in"><span></span></span>
+<span class="r-in"><span><span class="co"># \donttest{</span></span></span>
+<span class="r-in"><span>  <span class="kw"><a href="https://rdrr.io/r/base/try.html" class="external-link">try</a></span><span class="op">(</span><span class="fu">espn_mls_team_box</span><span class="op">(</span>game_id <span class="op">=</span> <span class="fl">598135</span><span class="op">)</span><span class="op">)</span></span></span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            statistics</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 1 12, 2, 0, 2, 9, 2, 61.4, 18, 4, 0.2, 0, 0, 456, 524, 0.9, 11, 27, 0.4, 42, 25, 0.6, 3, 9, 14, 0.6, 3, 12, 12, foulsCommitted, yellowCards, redCards, offsides, wonCorners, saves, possessionPct, totalShots, shotsOnTarget, shotPct, penaltyKickGoals, penaltyKickShots, accuratePasses, totalPasses, passPct, accurateCrosses, totalCrosses, crossPct, totalLongBalls, accurateLongBalls, longballPct, blockedShots, effectiveTackles, totalTackles, tacklePct, interceptions, effectiveClearance, totalClearance, Fouls, Yellow Cards, Red Cards, Offsides, Corner Kicks, Saves, POSSESSION, SHOTS, ON GOAL, On Target %, Penalty Goals, Penalty Kicks Taken, Accurate Passes, Passes, Pass Completion %, Accurate Crosses, Crosses, Cross %, Long Balls, Accurate Long Balls, Long Balls %, Blocked Shots, Effective Tackles, Tackles, Tackle %, Interceptions, Effective Clearances, Clearances</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> 2  13, 2, 0, 2, 5, 2, 38.6, 9, 3, 0.3, 0, 0, 265, 327, 0.8, 5, 16, 0.3, 63, 34, 0.5, 2, 6, 16, 0.4, 11, 28, 28, foulsCommitted, yellowCards, redCards, offsides, wonCorners, saves, possessionPct, totalShots, shotsOnTarget, shotPct, penaltyKickGoals, penaltyKickShots, accuratePasses, totalPasses, passPct, accurateCrosses, totalCrosses, crossPct, totalLongBalls, accurateLongBalls, longballPct, blockedShots, effectiveTackles, totalTackles, tacklePct, interceptions, effectiveClearance, totalClearance, Fouls, Yellow Cards, Red Cards, Offsides, Corner Kicks, Saves, POSSESSION, SHOTS, ON GOAL, On Target %, Penalty Goals, Penalty Kicks Taken, Accurate Passes, Passes, Pass Completion %, Accurate Crosses, Crosses, Cross %, Long Balls, Accurate Long Balls, Long Balls %, Blocked Shots, Effective Tackles, Tackles, Tackle %, Interceptions, Effective Clearances, Clearances</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span>   team.shortDisplayName      team.uid team.alternateColor team.color</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> 1               Atlanta s:600~t:18418              ccfcfc     000000</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> 2            Cincinnati s:600~t:18267              F36600     001f5e</span>
@@ -202,7 +205,7 @@
 <span class="r-out co"><span class="r-pr">#&gt;</span>   team.uniform.color team.uniform.type</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> 1             FFFFFF              away</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> 2             0000FF              home</span>
-<span class="r-in"><span class="co"># }</span></span>
+<span class="r-in"><span><span class="co"># }</span></span></span>
 </code></pre></div>
     </div>
   </div>
@@ -217,7 +220,7 @@
 </div>
 
 <div class="pkgdown">
-  <p></p><p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.0.3.</p>
+  <p></p><p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.0.5.</p>
 </div>
 
       </footer></div>

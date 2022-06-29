@@ -153,7 +153,7 @@
   <div class="col-md-9 contents">
     <div class="page-header">
     <h1>Get ESPN's NWSL team names and ids</h1>
-    <small class="dont-index">Source: <a href="https://github.com/saiemgilani/usfootballR/blob/HEAD/R/espn_nwsl_data.R" class="external-link"><code>R/espn_nwsl_data.R</code></a></small>
+    <small class="dont-index">Source: <a href="https://github.com/sportsdataverse/usfootballR/blob/HEAD/R/espn_nwsl_data.R" class="external-link"><code>R/espn_nwsl_data.R</code></a></small>
     <div class="hidden name"><code>espn_nwsl_teams.Rd</code></div>
     </div>
 
@@ -162,12 +162,14 @@
     </div>
 
     <div id="ref-usage">
-    <div class="sourceCode"><pre class="sourceCode r"><code><span class="fu">espn_nwsl_teams</span><span class="op">(</span><span class="op">)</span></code></pre></div>
+    <div class="sourceCode"><pre class="sourceCode r"><code><span><span class="fu">espn_nwsl_teams</span><span class="op">(</span><span class="op">)</span></span></code></pre></div>
     </div>
 
     <div id="value">
     <h2>Value</h2>
-    <p>Returns a tibble</p>
+    
+
+<p>Returns a tibble</p>
     </div>
     <div id="author">
     <h2>Author</h2>
@@ -176,14 +178,14 @@
 
     <div id="ref-examples">
     <h2>Examples</h2>
-    <div class="sourceCode"><pre class="sourceCode r"><code><span class="r-in"><span class="co"># \donttest{</span></span>
-<span class="r-in">  <span class="kw"><a href="https://rdrr.io/r/base/try.html" class="external-link">try</a></span><span class="op">(</span><span class="fu">espn_nwsl_teams</span><span class="op">(</span><span class="op">)</span><span class="op">)</span></span>
+    <div class="sourceCode"><pre class="sourceCode r"><code><span class="r-in"><span><span class="co"># \donttest{</span></span></span>
+<span class="r-in"><span>  <span class="kw"><a href="https://rdrr.io/r/base/try.html" class="external-link">try</a></span><span class="op">(</span><span class="fu">espn_nwsl_teams</span><span class="op">(</span><span class="op">)</span><span class="op">)</span></span></span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #949494;"># A tibble: 12 × 10</span></span>
 <span class="r-out co"><span class="r-pr">#&gt;</span>    team_id team                mascot display_name short_name abbreviation color</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span>    <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>   <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>               <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>  <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>        <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>      <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span>        <span style="color: #949494; font-style: italic;">&lt;chr&gt;</span></span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 1</span> 21422   Angel City FC       Angel… Angel City … Angel City LA           F8D5…</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 2</span> 15360   Chicago Red Stars   Chica… Chicago Red… Chicago    CHI          C600…</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 3</span> 17346   Houston Dash        Houst… Houston Dash Houston    HOU          F366…</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 3</span> 17346   Houston             Houst… Houston      Houston    HOU          F366…</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 4</span> 20907   Kansas City Current Kansa… Kansas City… Kansas Ci… KC           67C4…</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 5</span> 15364   NJ/NY Gotham FC     NJ/NY… NJ/NY Gotha… Gotham     NJNY         0000…</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;"> 6</span> 15366   North Carolina Cou… North… North Carol… Carolina   NC           0271…</span>
@@ -194,7 +196,7 @@
 <span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">11</span> 21423   San Diego Wave FC   San D… San Diego W… San Diego  SD           ff14…</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #BCBCBC;">12</span> 15365   Washington Spirit   Washi… Washington … Washington WSH          C600…</span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> <span style="color: #949494;"># … with 3 more variables: alternate_color &lt;chr&gt;, logo &lt;chr&gt;, logo_dark &lt;chr&gt;</span></span>
-<span class="r-in"><span class="co"># }</span></span>
+<span class="r-in"><span><span class="co"># }</span></span></span>
 </code></pre></div>
     </div>
   </div>
@@ -209,7 +211,7 @@
 </div>
 
 <div class="pkgdown">
-  <p></p><p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.0.3.</p>
+  <p></p><p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.0.5.</p>
 </div>
 
       </footer></div>
