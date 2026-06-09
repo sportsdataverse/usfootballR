@@ -59,7 +59,11 @@ jobs:
 
       - name: Install system dependencies
         run: |
-          pak::local_system_requirements(sudo = TRUE, execute =  TRUE)
+          # pak::local_system_requirements() resolves Linux apt packages only
+          # and errors on Windows (the sole matrix OS here); it is also
+          # deprecated in favour of pak::pkg_sysreqs(). Guard it to non-Windows
+          # so the dev-deps + rcmdcheck install still runs on the Windows job.
+          if (.Platform$OS.type != "windows") pak::local_system_requirements(sudo = TRUE, execute = TRUE)
           pak::local_install_dev_deps()
           pak::pak("rcmdcheck")
         shell: Rscript {0}
