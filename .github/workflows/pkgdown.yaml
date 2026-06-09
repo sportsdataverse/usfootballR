@@ -24,24 +24,12 @@ jobs:
       - uses: r-lib/actions/setup-r-dependencies@v2
         with:
           extra-packages: |
-            pkgdown
-            animation
-            baseballr
-            cfbfastR
-            chessR
-            fastRhockey
-            ggimage
-            gt
-            hoopR
-            knitr
-            pacman
-            ragg
-            rsconnect
-            sportyR
-            tictoc
-            toRvik
-            wehoop
-            zoo
+            any::pkgdown
+            any::knitr
+            any::rmarkdown
+            any::ragg
+            any::tictoc
+            local::.
           needs: website
       - name: Deploy package
         run: |
