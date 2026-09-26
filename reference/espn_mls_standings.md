@@ -23,7 +23,7 @@ Returns a tibble
 ``` r
 # \donttest{
   try(espn_mls_standings(year = 2021))
-#> 2026-09-26 07:14:05: Invalid arguments or no standings data available!
+#> 2026-09-26 07:22:42: Invalid arguments or no standings data available!
 #> Error in espn_mls_standings(year = 2021) : object 'standings' not found
 # }
 ```
