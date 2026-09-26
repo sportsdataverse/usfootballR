@@ -27,8 +27,8 @@ Saiem Gilani
 ``` r
 # \donttest{
   try(espn_mls_game_all(game_id = 598135))
-#> 2026-09-26 06:42:10: Invalid arguments or no play-by-play data for 598135 available!
-#> 2026-09-26 06:42:10: Invalid arguments or no team box score data for 598135 available!
+#> 2026-09-26 07:14:04: Invalid arguments or no play-by-play data for 598135 available!
+#> 2026-09-26 07:14:04: Invalid arguments or no team box score data for 598135 available!
 #> Error in espn_mls_game_all(game_id = 598135) : 
 #>   object 'plays_df' not found
 # }

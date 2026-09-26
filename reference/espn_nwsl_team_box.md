@@ -28,7 +28,7 @@ Saiem Gilani
 
 # \donttest{
   try(espn_nwsl_team_box(game_id = 601833))
-#> 2026-09-26 06:42:13: Invalid arguments or no team box score data for 601833 available!
+#> 2026-09-26 07:14:07: Invalid arguments or no team box score data for 601833 available!
 #> Error in espn_nwsl_team_box(game_id = 601833) : 
 #>   object 'team_box_score' not found
 # }
