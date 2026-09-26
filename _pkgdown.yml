@@ -1,9 +1,21 @@
-url: https://saiemgilani.github.io/usfootballR
+url: https://usfootballR.sportsdataverse.org/
 title: usfootballR
 template:
-  params:
-    bootswatch: flatly
-    ganalytics: G-9CQMXE1XGT
+  bootstrap: 5
+  bootswatch: flatly
+  ganalytics: G-9CQMXE1XGT
+  # Bootstrap 5 colours the navbar with bg-primary (!important), which beats
+  # the .navbar rule in pkgdown/extra.css; keep the brand green there.
+  bslib:
+    primary: "#15360F"
+  includes:
+    in_header: |
+      <!-- Privacy-friendly analytics by Plausible -->
+      <script async src="https://plausible.io/js/pa-0M1FrEv_DGrpVY5t8aA12.js"></script>
+      <script>
+        window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};
+        plausible.init()
+      </script>
   opengraph:
     image:
       src: "https://raw.githubusercontent.com/saiemgilani/usfootballR-data/master/themes/usfootballR_gh.png"
@@ -23,7 +35,7 @@ home:
 navbar:
   structure:
     left:  [home, reference, news, network, data, repo]
-    right: [twitter, github]
+    right: [search, twitter, github]
   title: "usfootballR"
   components:
     reference:
