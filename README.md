@@ -22,7 +22,8 @@ It provides users with the capability to access the API’s game
 play-by-plays, box scores, standings and results to analyze the data for
 themselves.
 
-Data freshness and pipeline status for every SportsDataverse dataset: [sportsdataverse.org/status](https://sportsdataverse.org/status).
+Data freshness and pipeline status for every SportsDataverse dataset:
+[sportsdataverse.org/status](https://sportsdataverse.org/status).
 
 ## Installation
 
