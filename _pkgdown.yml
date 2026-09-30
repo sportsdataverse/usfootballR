@@ -34,7 +34,7 @@ home:
   href: index.html
 navbar:
   structure:
-    left:  [home, reference, news, network, data, repo]
+    left:  [home, reference, news, network, data, status, repo]
     right: [search, twitter, github]
   title: "usfootballR"
   components:
@@ -123,6 +123,9 @@ navbar:
       menu:
       - text: "Data Repository"
         href: https://github.com/saiemgilani/usfootballR-data
+    status:
+      text: "Data status"
+      href: https://sportsdataverse.org/status
     github:
       icon: "fab fa-github fa-lg"
       href: https://github.com/saiemgilani/usfootballR/
