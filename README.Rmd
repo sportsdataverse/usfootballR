@@ -66,7 +66,7 @@ For more information on the package and function reference, please see the  [**`
 
 To cite the [**`usfootballR`**](https://usfootballR.sportsdataverse.org) R package in publications, use:
 
-BibTex Citation
+BibTeX Citation
 ```bibtex
 @misc{gilani_2021_usfootballR,
   author = {Saiem Gilani},
