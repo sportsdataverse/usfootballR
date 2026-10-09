@@ -57,7 +57,7 @@ stars](https://img.shields.io/github/stars/sportsdataverse/usfootballR.svg?color
 To cite the [**`usfootballR`**](https://usfootballR.sportsdataverse.org)
 R package in publications, use:
 
-BibTex Citation
+BibTeX Citation
 
 ``` bibtex
 @misc{gilani_2021_usfootballR,

@@ -28,7 +28,7 @@ Saiem Gilani
 
 # \donttest{
   try(espn_mls_team_box(game_id = 598135))
-#> 2026-10-09 03:22:00: Invalid arguments or no team box score data for 598135 available!
+#> 2026-10-09 05:29:14: Invalid arguments or no team box score data for 598135 available!
 #> Error in espn_mls_team_box(game_id = 598135) : 
 #>   object 'team_box_score' not found
 # }
