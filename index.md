@@ -38,13 +38,16 @@ website](https://usfootballR.sportsdataverse.org).
 [**Full News on
 Releases**](https://usfootballR.sportsdataverse.org/CHANGELOG)
 
-## Follow the [SportsDataverse](https://twitter.com/SportsDataverse) on Twitter and star this repo
+## Follow the SportsDataverse (@SportsDataverse) on X and star this repo
 
-[![Twitter
-Follow](https://img.shields.io/twitter/follow/SportsDataverse?color=blue&label=%40SportsDataverse&logo=twitter&style=for-the-badge)](https://twitter.com/SportsDataverse)
+[![X
+Follow](https://img.shields.io/twitter/follow/SportsDataverse?color=blue&label=%40SportsDataverse&logo=x&style=for-the-badge)](https://x.com/SportsDataverse)
 
 [![GitHub
 stars](https://img.shields.io/github/stars/sportsdataverse/usfootballR.svg?color=eee&logo=github&style=for-the-badge&label=Star%20usfootballR&maxAge=2592000)](https://github.com/sportsdataverse/usfootballR/stargazers/)
+
+[![Star history of
+sportsdataverse/usfootballR](https://raw.githubusercontent.com/sportsdataverse/usfootballR/star-history/star-history.png)](https://github.com/sportsdataverse/usfootballR/stargazers)
 
 # **Our Authors**
 
