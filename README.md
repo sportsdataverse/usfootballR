@@ -50,6 +50,15 @@ website](https://usfootballR.sportsdataverse.org).
 [**Full News on
 Releases**](https://usfootballR.sportsdataverse.org/CHANGELOG)
 
+## Star History
+
+<a href="https://github.com/sportsdataverse/usfootballR/stargazers">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sportsdataverse/usfootballR/star-history/star-history-dark.svg">
+    <img alt="Star history of sportsdataverse/usfootballR" src="https://raw.githubusercontent.com/sportsdataverse/usfootballR/star-history/star-history.png" width="600">
+  </picture>
+</a>
+
 ## Follow the [SportsDataverse](https://twitter.com/SportsDataverse) on Twitter and star this repo
 
 [![Twitter
