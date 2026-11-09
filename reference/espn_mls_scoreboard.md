@@ -28,6 +28,6 @@ Saiem Gilani.
 # Get schedule from date 2020-08-29
 # \donttest{
   try(espn_mls_scoreboard (season = "20200829"))
-#> 2026-10-18 11:10:27: Invalid arguments or no scoreboard data available!
+#> 2026-11-09 17:09:49: Invalid arguments or no scoreboard data available!
 # }
 ```

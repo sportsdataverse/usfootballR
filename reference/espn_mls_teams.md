@@ -21,7 +21,7 @@ Saiem Gilani
 ``` r
 # \donttest{
   try(espn_mls_teams())
-#> # A tibble: 30 × 10
+#> # A tibble: 32 × 10
 #>    team_id team              mascot   display_name short_name abbreviation color
 #>    <chr>   <chr>             <chr>    <chr>        <chr>      <chr>        <chr>
 #>  1 18418   Atlanta United FC Atlanta… Atlanta Uni… Atlanta    ATL          9d22…
@@ -34,7 +34,7 @@ Saiem Gilani
 #>  8 193     D.C. United       D.C. Un… D.C. United  D.C. Unit… DC           0000…
 #>  9 18267   FC Cincinnati     FC Cinc… FC Cincinna… Cincinnati CIN          0030…
 #> 10 185     FC Dallas         FC Dall… FC Dallas    Dallas     DAL          c609…
-#> # ℹ 20 more rows
+#> # ℹ 22 more rows
 #> # ℹ 3 more variables: alternate_color <chr>, logo <chr>, logo_dark <chr>
 # }
 ```
