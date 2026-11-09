@@ -1,5 +1,5 @@
 
-# **usfootballR** <a href='https://usfootballR.sportsdataverse.org/'><img src="https://raw.githubusercontent.com/sportsdataverse/usfootballR/main/man/figures/logo.png" align="right" width="20%" min-width="100px"/></a>
+# **usfootballR** <a href='https://usfootballR.sportsdataverse.org/'><img alt="usfootballR hex logo" src="https://raw.githubusercontent.com/sportsdataverse/usfootballR/main/man/figures/logo.png" align="right" width="20%" min-width="100px"/></a>
 
 <!-- badges: start -->
 [![R-universe](https://img.shields.io/badge/dynamic/json?style=for-the-badge&color=success&label=r-universe&prefix=v&query=%24.Version&url=https%3A%2F%2Fsportsdataverse.r-universe.dev%2Fapi%2Fpackages%2FusfootballR)](https://sportsdataverse.r-universe.dev/usfootballR)
@@ -9,7 +9,7 @@
 [![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg?style=for-the-badge&logo=github)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](https://github.com/sportsdataverse/usfootballR/blob/main/LICENSE.md)
 [![Contributors](https://img.shields.io/github/contributors/sportsdataverse/usfootballR?style=for-the-badge)](https://github.com/sportsdataverse/usfootballR/graphs/contributors)
-[![GitHub stars](https://img.shields.io/github/stars/sportsdataverse/usfootballR?style=for-the-badge&logo=github)](https://github.com/sportsdataverse/usfootballR/stargazers)
+[![GitHub stars](https://img.shields.io/github/stars/sportsdataverse/usfootballR?style=for-the-badge&logo=github)](https://github.com/sportsdataverse/usfootballR)
 [![X Follow](https://img.shields.io/twitter/follow/SportsDataverse?color=blue&label=%40SportsDataverse&logo=x&style=for-the-badge)](https://x.com/SportsDataverse)
 <!-- badges: end -->
 
@@ -36,7 +36,9 @@ You can install the development version of [**`usfootballR`**](https://github.co
 ```r
 if (!requireNamespace("pak", quietly = TRUE)) install.packages("pak")
 pak::pak("sportsdataverse/usfootballR")
-# or: remotes::install_github("sportsdataverse/usfootballR")
+# or, with remotes:
+# if (!requireNamespace("remotes", quietly = TRUE)) install.packages("remotes")
+# remotes::install_github("sportsdataverse/usfootballR")
 ```
 
 ## **Quick start**
@@ -100,9 +102,9 @@ See the full ecosystem at [sportsdataverse.org](https://sportsdataverse.org/).
 
 [![X Follow](https://img.shields.io/twitter/follow/SportsDataverse?color=blue&label=%40SportsDataverse&logo=x&style=for-the-badge)](https://x.com/SportsDataverse)
 
-[![GitHub stars](https://img.shields.io/github/stars/sportsdataverse/usfootballR.svg?color=eee&logo=github&style=for-the-badge&label=Star%20usfootballR&maxAge=2592000)](https://github.com/sportsdataverse/usfootballR/stargazers/)
+[![GitHub stars](https://img.shields.io/github/stars/sportsdataverse/usfootballR.svg?color=eee&logo=github&style=for-the-badge&label=Star%20usfootballR&maxAge=2592000)](https://github.com/sportsdataverse/usfootballR)
 
-<a href="https://github.com/sportsdataverse/usfootballR/stargazers">
+<a href="https://github.com/sportsdataverse/usfootballR">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sportsdataverse/usfootballR/star-history/star-history-dark.svg">
     <img alt="Star history of sportsdataverse/usfootballR" src="https://raw.githubusercontent.com/sportsdataverse/usfootballR/star-history/star-history.png" width="600">
